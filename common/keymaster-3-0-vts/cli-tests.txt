@@ -1,0 +1,1 @@
+LD_LIBRARY_PATH=/data/local/tmp/vtslibs/ /data/local/tmp/VtsHalKeymasterV3_0TargetTest --gtest_filter=ImportKeyTest.AesSuccess
