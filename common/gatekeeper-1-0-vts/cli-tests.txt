@@ -1,0 +1,9 @@
+LD_LIBRARY_PATH=/data/local/tmp/vtslibs/ /data/local/tmp/VtsHalGatekeeperV1_0TargetTest --gtest_filter=GatekeeperHidlTest.EnrollSuccess
+LD_LIBRARY_PATH=/data/local/tmp/vtslibs/ /data/local/tmp/VtsHalGatekeeperV1_0TargetTest --gtest_filter=GatekeeperHidlTest.EnrollNoPassword
+LD_LIBRARY_PATH=/data/local/tmp/vtslibs/ /data/local/tmp/VtsHalGatekeeperV1_0TargetTest --gtest_filter=GatekeeperHidlTest.VerifySuccess
+LD_LIBRARY_PATH=/data/local/tmp/vtslibs/ /data/local/tmp/VtsHalGatekeeperV1_0TargetTest --gtest_filter=GatekeeperHidlTest.TrustedReenroll
+LD_LIBRARY_PATH=/data/local/tmp/vtslibs/ /data/local/tmp/VtsHalGatekeeperV1_0TargetTest --gtest_filter=GatekeeperHidlTest.UntrustedReenroll
+LD_LIBRARY_PATH=/data/local/tmp/vtslibs/ /data/local/tmp/VtsHalGatekeeperV1_0TargetTest --gtest_filter=GatekeeperHidlTest.VerifyNoData
+LD_LIBRARY_PATH=/data/local/tmp/vtslibs/ /data/local/tmp/VtsHalGatekeeperV1_0TargetTest --gtest_filter=GatekeeperHidlTest.DeleteUserTest
+LD_LIBRARY_PATH=/data/local/tmp/vtslibs/ /data/local/tmp/VtsHalGatekeeperV1_0TargetTest --gtest_filter=GatekeeperHidlTest.DeleteInvalidUserTest
+LD_LIBRARY_PATH=/data/local/tmp/vtslibs/ /data/local/tmp/VtsHalGatekeeperV1_0TargetTest --gtest_filter=GatekeeperHidlTest.DeleteAllUsersTest
